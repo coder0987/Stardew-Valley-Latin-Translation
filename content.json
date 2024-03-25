@@ -1,0 +1,26 @@
+{
+   "Format": "1.30.0",
+   "Changes": [
+		{
+            "Action": "EditData",
+            "Target": "Data/AdditionalLanguages",
+            "Entries": {
+                "MachSanderford.Latin": {
+                    "ID": "MachSanderford.Latin",
+                    "LanguageCode": "la",
+                    "ButtonTexture": "Mods/MachSanderford.Latin/Button",
+                    "UseLatinFont": true,
+                    "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockDateFormat": "[DAY_OF_WEEK] [DAY_OF_MONTH]"
+                }
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/MachSanderford.Latin/Button",
+            "FromFile": "assets/button.png"
+        }
+   ]
+}
